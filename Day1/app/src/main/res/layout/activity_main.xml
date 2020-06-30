@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Calculator"
+        android:layout_width="236dp"
+        android:layout_height="71dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="monospace"
+        android:text="Grade Calculator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="40sp"/>
+
+    <TextView
+        android:id="@+id/Quizes"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="82sp"
+        android:layout_marginBottom="20sp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="casual"
+        android:text="Quizes %15"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/MidTerms"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="82sp"
+        android:layout_marginBottom="20sp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="casual"
+        android:text="MidTerms"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/Homework"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="82sp"
+        android:layout_marginBottom="20sp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="casual"
+        android:text="Homework %25" />
+
+    <TextView
+        android:id="@+id/Final"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="82sp"
+        android:layout_marginBottom="20sp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="casual"
+        android:text="Final 30%" />
+
+    <Button
+        android:id="@+id/Calcluate"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="serif-monospace"
+        android:text="Calcluate"
+        android:layout_marginStart="70sp"/>
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="40sp"
+        android:background="#F44336"
+        android:text="Reset" />
+
+</LinearLayout>
